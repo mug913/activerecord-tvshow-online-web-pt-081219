@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 4) do
 
-  create_table "dogs", force: :cascade do |t|
+  create_table "frogs", force: :cascade do |t|
     t.string "name"
     t.string "network"
     t.string "day"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 4) do
     t.string "breed"
   end
 
-  create_table "shows", force: :cascade do |t|
+  create_table "frows", force: :cascade do |t|
     t.string "name"
     t.string "network"
     t.string "day"
